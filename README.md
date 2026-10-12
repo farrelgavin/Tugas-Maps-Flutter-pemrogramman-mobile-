@@ -1,17 +1,58 @@
-# farrel
+# Tugas Harian 4 - Pemrograman Mobile
 
-A new Flutter project.
+Aplikasi Flutter dengan **NavigationBar** yang berjalan di setiap halaman, mengikuti materi Pertemuan 2 (ITENAS).
 
-## Getting Started
+## Identitas
 
-This project is a starting point for a Flutter application.
+| | |
+|---|---|
+| Nama | Farrel Gavin Azarya Fadillillah |
+| NIM | 152024016 |
+| Program Studi | Informatika |
 
-A few resources to get you started if this is your first Flutter project:
+## Fitur
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Home**: ikon mahasiswa, tulisan "Selamat datang mahasiswa", dan dua tombol (E-Money dan Perpustakaan).
+- **E-Money**: saldo dan menu layanan (Top Up, Transfer, Scan QR, dan lainnya) yang membuka halaman tujuannya masing-masing.
+- **Perpustakaan**: menu Tambah akun dan Tambah buku.
+- **Riwayat**: daftar transaksi.
+- **Profil**: menampilkan nama, NIM, dan program studi.
+- **Navbar** reusable (Home, Riwayat, Profil) yang dipasang di setiap halaman.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Struktur Folder `lib/`
+
+```
+lib/
+├── main.dart
+├── pages/
+│   ├── home_page.dart
+│   ├── riwayat_page.dart
+│   ├── profil_page.dart
+│   ├── emoney_page.dart
+│   ├── perpustakaan_page.dart
+│   ├── halaman_menu.dart
+│   └── halaman_tujuan.dart
+└── widgets/
+    └── navbar.dart
+```
+
+- `main.dart`: file utama yang menjalankan aplikasi dan mengatur halaman awal.
+- `pages/`: halaman-halaman aplikasi.
+- `widgets/navbar.dart`: komponen navbar yang dipakai ulang di beberapa halaman.
+
+## Cara Menjalankan
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Screenshot
+
+| Home | E-Money | Perpustakaan |
+|---|---|---|
+| <img src="screenshots/home.png" width="200"> | <img src="screenshots/emoney.png" width="200"> | <img src="screenshots/perpustakaan.png" width="200"> |
+
+| Riwayat | Profil |
+|---|---|
+| <img src="screenshots/riwayat.png" width="200"> | <img src="screenshots/profil.png" width="200"> |
