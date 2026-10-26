@@ -137,16 +137,21 @@ flutter run
 
 ## 🖼️ Screenshot
 
-| Home | E-Money | Perpustakaan |
-|:---:|:---:|:---:|
-| ![Home](screenshots/home.png) | ![E-Money](screenshots/emoney.png) | ![Perpustakaan](screenshots/perpustakaan.png) |
+### Halaman Home & Google Maps (Baru)
+
+| Home (tombol Google Maps) | Google Maps (marker kampus) |
+|:---:|:---:|
+| ![Home](screenshots/home.png) | ![Google Maps](screenshots/maps.png) |
+
+### Halaman Lainnya
+
+| E-Money | Perpustakaan |
+|:---:|:---:|
+| ![E-Money](screenshots/emoney.png) | ![Perpustakaan](screenshots/perpustakaan.png) |
 
 | Riwayat | Profil |
 |:---:|:---:|
 | ![Riwayat](screenshots/riwayat.png) | ![Profil](screenshots/profil.png) |
-
-<!-- Tambahkan screenshot halaman Maps: simpan sebagai screenshots/maps.png lalu aktifkan baris di bawah -->
-<!-- ![Google Maps](screenshots/maps.png) -->
 
 ---
 
