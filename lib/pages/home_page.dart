@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../widgets/navbar.dart';
 import 'emoney_page.dart';
 import 'perpustakaan_page.dart';
+import 'halaman_maps.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -49,6 +50,18 @@ class HomePage extends StatelessWidget {
                   ),
                   icon: const Icon(Icons.local_library),
                   label: const Text('Perpustakaan'),
+                ),
+              ),
+              const SizedBox(height: 12),
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton.icon(
+                  onPressed: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (_) => const HalamanMaps()),
+                  ),
+                  icon: const Icon(Icons.map),
+                  label: const Text('Google Maps'),
                 ),
               ),
             ],

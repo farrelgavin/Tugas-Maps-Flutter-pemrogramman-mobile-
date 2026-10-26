@@ -3,6 +3,12 @@
         android:label="farrel"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        
+        <!-- Tambahan API Key Google Maps -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCVZ5Dk9bkzGbwdK3Phk_wX8-Cbb0THcPo" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
